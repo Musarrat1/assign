@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Zainab</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #1c1c1c;
+      font-family: 'Segoe UI', sans-serif;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #fdd29a;
+      padding: 40px;
+      border-radius: 25px;
+      max-width: 350px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      background-color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .role {
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .follow-link {
+      display: block;
+      color: #d94e4e;
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+
+    .message-text {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .message-btn {
+      padding: 10px 20px;
+      border: 2px solid #000;
+      background: transparent;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .message-btn:hover {
+      background: #000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Profile Icon" />
+    <div class="name">Zainab Nisa</div>
+    <div class="role">Product Designer</div>
+    <a href="#" class="follow-link">Follow me</a>
+    <div class="message-text">If you've any Query related work?</div>
+    <button class="message-btn" onclick="location.href='second.html'">Send me Message</button>
+  </div>
+</body>
+</html>
